@@ -1,0 +1,264 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.com.suv.compass"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/usthlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.example.com.suv.compass.Login"
+            android:label="@string/app_name" 
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.com.suv.compass.Sample"
+            android:label="@string/app_name"
+            android:excludeFromRecents="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+               
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.com.suv.compass.BodyDiagram"
+            android:label="@string/app_name"
+            android:excludeFromRecents="true" >
+            <intent-filter>
+                 
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Patient class -->
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Patient_Profile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Patient_Prescription"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Patient_Questionnaires"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Patient_Inbox"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESAS"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESAS1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESAS2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESAS3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESAS4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+             android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.ESASView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- Doctor class -->
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Doctor_Profile"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Doctor_PatientList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Doctor_Inbox"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.DoctorViewPatient"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.BodyDiagramView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+        
+        <!-- Admin class -->
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Admin_DoctorRecord"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Admin_PatientRecord"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Admin_PatientInformation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Admin_DoctorInformation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Add_Prescription"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Admin_AddPrescription"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:excludeFromRecents="true"
+            android:name="com.example.com.suv.compass.Doctor_ViewPrescription"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        
+         <service android:enabled="true"  
+           android:launchMode="singleTop"
+           android:name=".MessageService">
+			<intent-filter android:priority="2147483647">
+			</intent-filter>
+		</service>
+		<service android:enabled="true"  
+           android:launchMode="singleTop"
+           android:name=".DoctorService">
+			<intent-filter android:priority="2147483647">
+			</intent-filter>
+		</service>
+        
+        
+    </application>
+    
+    <!-- permissiong using intenet connection -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- permissiong using intenet properties -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>
